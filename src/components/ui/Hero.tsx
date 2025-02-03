@@ -1,4 +1,10 @@
+import { Rock_Salt } from "next/font/google"
 import Image from "next/image"
+
+const rockSalt = Rock_Salt({
+  weight: '400'
+})
+
 import { Button } from "./Button"
 
 export const Hero = () => {
@@ -13,8 +19,8 @@ export const Hero = () => {
       />
 
       <div className="absolute w-full left-0 right-0 top-[250px] flex items-center justify-center">
-        <div className="space-y-4 text-center">
-          <h1 className="font-bold text-3xl">TATTO STUDIO</h1>
+        <div className="space-y-8 text-center">
+          <h1 className={`text-3xl ${rockSalt.className}`}>TATTO STUDIO</h1>
           <Button />
         </div>
       </div>

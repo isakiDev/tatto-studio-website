@@ -1,7 +1,7 @@
 import { Hero } from "@/components/ui/Hero"
-import { Navbar } from "@/components/ui/Navbar"
+import { Navbar } from "@/components/layout/Navbar"
 
-function HeaderSection() {
+function Header() {
   return (
     <header>
       <Navbar />
@@ -10,4 +10,4 @@ function HeaderSection() {
   )
 }
 
-export default HeaderSection
+export default Header
