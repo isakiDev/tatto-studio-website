@@ -1,13 +1,9 @@
-import { Hero } from "@/components/ui/Hero"
-import { Navbar } from "@/components/layout/Navbar"
+import { Hero } from "../ui/Hero"
 
-function Header() {
+export const Header = () => {
   return (
     <header>
-      <Navbar />
       <Hero />
     </header>
   )
 }
-
-export default Header
