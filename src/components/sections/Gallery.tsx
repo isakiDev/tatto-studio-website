@@ -1,19 +1,11 @@
 import Image from "next/image"
 import { WrapperLayout } from "../layout/WrapperLayout"
+import { TitleSection } from "../ui/titles/TitleSection"
 
 export const Gallery = () => {
   return (
     <WrapperLayout>
-      <div className="flex flex-col justify-center items-center py-8">
-        <h2 className="text-xl">Galeria</h2>
-        <Image
-          width={130}
-          height={130}
-          className="translate-y-2 invert"
-          src="/assets/underline-icon.png"
-          alt="underline-icon"
-        />
-      </div>
+      <TitleSection title="Galeria" />
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 pt-10">
         <div className="grid gap-4">

@@ -1,10 +1,11 @@
 import { WrapperLayout } from "../layout/WrapperLayout"
 import { MapIframe } from "../ui/MapIframe"
+import { TitleSection } from "../ui/titles/TitleSection"
 
 export const Contact = () => {
   return (
     <WrapperLayout>
-      <h2>Contacto</h2>
+      <TitleSection title="Contacto" />
 
       <MapIframe />
 

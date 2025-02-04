@@ -6,12 +6,13 @@ import {
 } from "@/components/ui/Accordion"
 
 import { WrapperLayout } from "../layout/WrapperLayout"
+import { TitleSection } from "../ui/titles/TitleSection"
 
 export const Questions = () => {
   return (
     <WrapperLayout>
       <div className="w-full">
-        <h2>Pasos para un tatuaje</h2>
+        <TitleSection title="No te quedes con dudas!!" />
 
         <Accordion type="single" collapsible>
           <AccordionItem value="item-1">

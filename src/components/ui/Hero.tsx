@@ -18,7 +18,7 @@ export const Hero = () => {
         className="min-h-screen sm:h-80 object-cover custom_degrade"
       />
 
-      <div className="absolute w-full left-0 right-0 top-52 flex items-center justify-center">
+      <div className="absolute w-full left-0 right-0 top-80 flex items-center justify-center">
         <div className="space-y-8 text-center">
           <h1 className={`text-3xl ${rockSalt.className}`}>TATTO STUDIO</h1>
           <Button />
